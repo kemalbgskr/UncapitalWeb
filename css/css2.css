@@ -1,0 +1,38 @@
+.stage, .ring, .img1{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    user-select: none;
+  }
+  .stage{
+    overflow: hidden;
+    background: #000;
+  }
+  
+  div, svg {
+    position: absolute;
+  }
+  
+/*PORTOFOLOIO*/
+.imgporto {
+  position: absolute;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgporto img {
+  height: auto;
+  display: inline-block;
+  width: 5%;
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.imgporto img:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
